@@ -1,0 +1,66 @@
+body {
+    background-color: #9c2c2c;
+    margin: 0;
+    padding: 20px;
+   
+}
+
+h1 {
+    color: #ffe0e0;
+    align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: 5%;
+}
+
+p {
+    line-height: 1.6;
+    color: #ffe0e0;
+     justify-content: center;
+        display: flex;
+        margin-right: 5%;
+}
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+      color: #ffe0e0;
+      justify-content: center;
+}
+.botao {
+    background-color: #ffe0e0;
+    color: #9c2c2c;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.fundo {
+    background-color: #8d3636;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, textarea{
+    width: 50%;
+    max-width: 25%;
+    padding: 7px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+form{
+    max-width: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35%; 
+}
+
+
