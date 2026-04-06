@@ -2,6 +2,7 @@ body {
     background-color: #9c2c2c;
     margin: 0;
     padding: 20px;
+    
    
 }
 
@@ -34,6 +35,7 @@ p {
     padding: 5px 10px;
     cursor: pointer;
     font-size: 15px;
+    border-radius: 5px ;
 }
 .fundo {
     background-color: #8d3636;
@@ -62,5 +64,11 @@ form{
     flex-direction: column;
     margin-left: 35%; 
 }
+h2 {
+    color: #ffe0e0;
+    align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-right: 5%;
 
-
+}

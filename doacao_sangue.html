@@ -7,8 +7,9 @@
 <body>
     <h1>Doação de Sangue</h1>
     <p>Bem-vindo à nossa plataforma de doação de sangue. Sua contribuição pode salvar vidas!</p>
-
-    <form action="">
+    <br>
+        <h2>Cadastre-se</h2>
+    <form action="" id="formdoacao">
         <fieldset class="fundo">
             <div class="campo">
                 <label for="nome">Nome completo:</label>
@@ -60,13 +61,6 @@
 
                     <fieldset class="fundo">
                         <div class="campo">
-                            <label for="telefone">Telefone:</label>
-                            <input type="tel" name="telefone" id="telefone" required>
-                        </div>
-                    </fieldset>
-
-                    <fieldset class="fundo">
-                        <div class="campo">
                             <label for="cidade">Cidade:</label>
                             <input type="text" name="cidade" id="cidade" required>
                         </div>
@@ -81,6 +75,14 @@
                 </fieldset>
 
                  <button class="botao" type="submit">Enviar</button>
+                  <label for=""><p>Aceite Nossos termos antes de finalizar o cadastramento</p>
+                <p>Ao clicar em "Aceitar", você concorda com nossos termos e condições de uso. Por favor, leia atentamente antes de prosseguir.</p> </label>
+                 <label>
+                        <input type="radio" name="termo" value="sim" required> <p>Aceito os termos e condições</p>
+                    </label>
+                    <label>
+                        <input type="radio" name="termo" value="nao" required> <p>Não aceito os termos e condições</p>
+                    </label>
             </form>
 </body>
 <script src="script.js"></script>

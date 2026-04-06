@@ -51,10 +51,15 @@ form.addEventListener("submit", function(e) {
         return;
     }
     
-    if (peso < 50) {
-        alert("Peso insuficiente para doação");
-        return;
-    }
+  if (isNaN(peso) || peso < 50) {
+    alert("Peso insuficiente para doação.");
+    return;
+  }
 
-    alert("Cadastro realizado com sucesso!");
+  if (tipo_sanguineo.trim() === "") {
+      alert("Tipo sanguíneo é obrigatório");
+      return;
+  }
+
+  alert("Cadastro realizado com sucesso!");
 });
